@@ -15,4 +15,6 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 :zap: Materialize: https://materializecss.com/
 
+:zap: TinyPNG: https://tinypng.com/
+
 
