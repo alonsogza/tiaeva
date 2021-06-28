@@ -8,3 +8,11 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 - CSS
 - Javascript
 - Materialize 1.0.0
+
+---
+
+:zap: Icono SVG: https://freesvg.org/
+
+:zap: Materialize: https://materializecss.com/
+
+
