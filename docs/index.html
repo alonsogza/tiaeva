@@ -1,74 +1,85 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta Content-Type: "text/html"; charset="utf-8">
+    <meta Content-Type: "text/html" ; charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="icon" href="img/bamboo2.svg" type="image/icon type">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
 
     <title>TIA EVA - Comida Saludable</title>
 </head>
 
 <body class="grey lighten-5">
     <nav class="nav-wrapper orange darken-4">
-        <div class="container">
-
-            <a href="#!" class="brand-logo">Tia Eva</a>
+        <div class="row"> 
+            <!-- <a href="#!" class="brand-logo brand-logo-left">Tia Eva</a> -->
             <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
-                <!-- <i class="fas fa-bars"></i> -->
             </a>
 
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Platillos</a></li>
                 <li><a href="#">Ubicacion</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li>
-                    <a href="https://www.facebook.com/Tiaevacomidasana/" target="_blank">
-                        <span style="font-size: 2em; color: #fff; ">
-                            <i class="fab fa-facebook-square"> </i>
-                        </span>
+                <li><a href="https://www.facebook.com/Tiaevacomidasana/" target="_blank">
+                        Facebook
                     </a>
                 </li>
             </ul>
+        </div>
+    </nav>
+    
+    <!-- Sidebar -->
+    <div class="row">
+        <ul class="sidenav" id="menu-responsive">
+            <li>
+                <div class="user-view">
+                    <div>
+                        <img class="responsive-img"  src="img/LogoGrande.jpg" alt="Logo"> <!-- src="img/Logo.png"> -->
+                    </div>
+                </div>
+            </li>            
+            <li><a href="#"><i class="material-icons orange-text text-darken-4">restaurant_menu</i>
+                <span class="orange-text text-darken-4">Platillos</span>
+                </a>
+            </li>
+            <li><a href="#"><i class="material-icons orange-text text-darken-4">location_on</i>
+                    <span class="orange-text text-darken-4">Ubicacion<span>
+                </a>
+            </li>
+            <li><a href="tel:8110324234">
+                    <i class="material-icons orange-text text-darken-4">call</i>
+                    <span class="orange-text text-darken-4">Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Tiaevacomidasana/" target="_blank">
+                    <i class="material-icons orange-text text-darken-4">facebook</i>
+                    <span class="orange-text text-darken-4">Facebook</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col s4">
+            <img class="responsive-img" src="img/LogoGrande.jpg" alt="Logo">
 
         </div>
+    </div>
+</div>
 
-    </nav>
 
-    <ul class="sidenav" id="menu-responsive">
-        <li><a href="#">
-                <span class="orange-text text-darken-4">
-                    <i class="fas fa-utensils"></i> Platillos
-                </span>
-            </a>
-        </li>
-        <li><a href="#">
-                <span class="orange-text text-darken-4">
-                    <i class="fas fa-map-marker-alt"></i> Ubicacion
-                </span>                
-            </a>
-        </li>
-        <li><a href="tel:8110324234">
-                <span class="orange-text text-darken-4">
-                    <i class="fas fa-mobile-alt"></i> Contacto
-                </span>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/Tiaevacomidasana/" target="_blank">
-                <span class="orange-text text-darken-4">
-                    <i class="fab fa-facebook"></i> facebook
-                </span>
-            </a>
-        </li>
-    </ul>
 
-    <div class="container">
+
+
+    <!--    <div class="container">
         <div class="row">
             <div class="carousel">
                 <a class="carousel-item" href="#uno!"><img class="responsive-img" src="img/01.jpg"></a>
@@ -82,8 +93,9 @@
                 <a class="carousel-item modal-trigger" href="#modal1"><img src="https://lorempixel.com/250/250/nature/5"></a>
             </div>
         </div>
-
-        <!-- Modal Structure -->
+-->
+    <!-- Modal Structure -->
+    <!--        
         <div id="modal1" class="modal">
             <div class="modal-content">
             <h4>Modal Header</h4>
@@ -92,6 +104,10 @@
             <div class="modal-footer">
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
             </div>
+        </div>
+
+        <div class="row center-align">
+            <input type="button" value="next" id="siguiente">
         </div>
 
 
@@ -105,6 +121,8 @@
     </div>
 
     <script defer src="js/all.min.js"></script>
+-->
+
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>

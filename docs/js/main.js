@@ -9,3 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // instance.next(3);
   });
 
+  const SIGUIENTE = document.querySelector('siguiente');
+
+  // SIGUIENTE.addEventListener('click', ()=>{
+  //   console.log('Click');
+  // })
