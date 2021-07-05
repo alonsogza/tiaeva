@@ -1,15 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
 
-    // var elems = document.querySelectorAll('.carousel');
-    // var instances = M.Carousel.init(elems, {
+    var elems = document.querySelectorAll('.carousel');
+    // var instance = M.Carousel.init(elems, {
     //   duration: 400,
-    //   indicators: true
     // });    
-    // instance.next(3);
+
+    var instance = M.Carousel.getInstance('.carousel');
+
+console.log( {instance});
+
+    // // let mielemento = M.Carousel.getInstance('.carousel');
+    // setInterval(function(){
+    //   instance.next();
+    // }, 2000)
+
   });
 
-  const SIGUIENTE = document.querySelector('siguiente');
+  // const SIGUIENTE = document.querySelector('siguiente');
 
   // SIGUIENTE.addEventListener('click', ()=>{
   //   console.log('Click');
