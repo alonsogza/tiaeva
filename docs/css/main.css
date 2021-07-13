@@ -6,3 +6,8 @@ nav .brand-logo-left{
     width: 100%;
 } */
 
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    z-index:10;
+}
