@@ -6,8 +6,9 @@ nav .brand-logo-left{
     width: 100%;
 } */
 
-.sticky-nav {
+/*Con este codigo hacemos que el menu se quede pegado */
+/* .sticky-nav {
     position: fixed;
     top: 0;
     z-index:10;
-}
+} */
