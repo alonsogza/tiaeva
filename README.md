@@ -13,8 +13,13 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 :zap: Icono SVG: https://freesvg.org/
 
+:zap: Iconos de Monster: https://iconmonstr.com/
+
 :zap: Materialize: https://materializecss.com/
 
 :zap: TinyPNG: https://tinypng.com/
 
+:zap: World's Best SVG Compressor: https://vecta.io/nano
 
+
+https://vecta.io/blog/best-way-to-embed-svg
