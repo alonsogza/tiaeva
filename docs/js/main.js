@@ -1,5 +1,15 @@
 M.AutoInit();
 
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
+
 // Manually initialize the carousel with any values that you want including a custom option for autoScroll
 // You would create your own window.onload function and change the options for your own instance
 window.onload = function() {
