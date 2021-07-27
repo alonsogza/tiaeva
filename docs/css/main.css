@@ -27,8 +27,8 @@ nav .brand-logo-left{
 .to-top {
   /* background: #fc4a1a; white; */
   position: fixed;
-  bottom: 16px;
-  right:32px;
+  bottom: 50px;
+  right:5px;
   width:50px;
   height:50px;
   border-radius: 50%;
@@ -44,7 +44,13 @@ nav .brand-logo-left{
 }
 
 .to-top.active {
-  bottom: 32px;
+  bottom: 16px;
   pointer-events: auto;
   opacity:1;
+}
+
+.whatsapp-button{
+  position: fixed;  
+  right: 25px; 
+  bottom: 16px;
 }
