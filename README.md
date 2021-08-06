@@ -21,5 +21,7 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 :zap: World's Best SVG Compressor: https://vecta.io/nano
 
+:zap: uiGradients: https://uigradients.com
+
 
 https://vecta.io/blog/best-way-to-embed-svg
