@@ -23,3 +23,9 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 
 https://vecta.io/blog/best-way-to-embed-svg
+
+---
+:coffee: Apoyo
+- https://color-hex.org/color/3b8435
+- https://cssgradient.io/
+- https://uigradients.com/#LearningandLeading

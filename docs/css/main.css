@@ -4,6 +4,7 @@ html {
 
 nav .brand-logo-left{
     margin-left: 2.1rem;
+    color: #696354;
 }
 
 .OrangeFun{
@@ -12,10 +13,20 @@ nav .brand-logo-left{
     background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.Green{
+  background: #3b8435; /*  rgb(59,132,53); */
+  /* background: linear-gradient(180deg, rgba(59,132,53,1) 35%, rgba(247,249,246,1) 100%);  */
+}
 
-/* img .responsive-img{
-    width: 100%;
+/* .GreenGradient{
+  background: #3b8435; /*  rgb(59,132,53); 
+  background: linear-gradient(180deg, rgba(59,132,53,1) 35%, rgba(247,249,246,1) 100%); 
 } */
+
+
+img .responsive-img{
+    width: 100%;
+}
 
 /*Con este codigo hacemos que el menu se quede pegado */
 /* .sticky-nav {
@@ -36,7 +47,7 @@ nav .brand-logo-left{
   align-items: center;
   justify-content: center;
   font-size:32px;
-  color:#fff; /*1f1f1f;*/
+  color: #fff; /* #173415; /* #fff; /*1f1f1f;*/
   text-decoration: none;
   opacity:0;
   pointer-events: none;
@@ -67,14 +78,17 @@ nav .brand-logo-left{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /* background: #888; */
-  background: #fc4a1a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #fc4a1a;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to bottom, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #3b8435 ;
 }
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   /* background: #555; */
-  background: #fc4a1a; 
+  /* background: #fc4a1a; */
+  background: #173415;
 }
 /*--FIN Scroll Bar --*/
 
