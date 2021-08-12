@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.container {
+    /* Used to position the diagonal area */
+    position: relative;
+}
+
+.container__diagonal {
+    /* Absolute position */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Create diagonal sides */
+    transform: skewY(-5deg);
+
+    /* Background color */
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Displayed under the main content */
+    z-index: -1;
+}        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- The diagonal area -->
+        <div class="container__diagonal">
+        </div>
+        
+        <!-- Content -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta accusantium nulla quos natus omnis ad! Accusamus fuga reiciendis expedita nihil numquam odio veritatis reprehenderit culpa, at ratione qui, atque officia ducimus nostrum laboriosam dignissimos maxime aliquid? Labore, enim sequi. Facere error voluptatibus fugiat nulla tempore veniam architecto ab laudantium cupiditate atque quisquam, cumque quas tenetur dolorum impedit deleniti velit perspiciatis fuga eum modi labore suscipit voluptatem! Maxime sequi mollitia voluptate possimus veritatis modi deserunt, nam eaque at inventore, vero earum. Culpa quibusdam porro hic earum perspiciatis delectus repellat consequatur esse, illo ullam, sit placeat ea illum amet voluptatum rerum?
+    </div>  
+</body>
+</html>
