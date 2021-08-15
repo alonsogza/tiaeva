@@ -7,6 +7,10 @@ nav .brand-logo-left{
     color: #696354;
 }
 
+.caption h3,h5{
+  text-shadow: 1px 1px 1px #000;
+}
+
 .OrangeFun{
     background: #fc4a1a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
