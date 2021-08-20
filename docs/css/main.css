@@ -22,6 +22,10 @@ nav .brand-logo-left{
   /* background: linear-gradient(180deg, rgba(59,132,53,1) 35%, rgba(247,249,246,1) 100%);  */
 }
 
+.Green-Text{
+  color: #3b8435; /*  rgb(59,132,53); */
+}
+
 /* .GreenGradient{
   background: #3b8435; /*  rgb(59,132,53); 
   background: linear-gradient(180deg, rgba(59,132,53,1) 35%, rgba(247,249,246,1) 100%); 
