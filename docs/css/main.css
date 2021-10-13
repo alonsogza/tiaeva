@@ -111,3 +111,11 @@ img .responsive-img{
   flex-direction: column;
   justify-content: center;
 } */
+
+p{
+  /* width: 300px; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
