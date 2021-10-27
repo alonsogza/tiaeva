@@ -10,7 +10,9 @@ window.addEventListener("scroll", () => {
   }
 })
 
-const options_sidenav = {};
+const options_sidenav = {
+  edge: 'right', // <--- Despliega el Menu de Deracha a Izquierda
+};
 const options_materialbox = {};
 const options_slider = {};
 
