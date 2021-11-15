@@ -15,6 +15,10 @@ const options_sidenav = {
 };
 const options_materialbox = {};
 const options_slider = {};
+const options_carousel = {
+  fullWidth: true,
+  indicators: true,  
+};
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
@@ -25,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var elems = document.querySelectorAll('.slider');
   var instances = M.Slider.init(elems, options_slider);
+
+  var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems, options_carousel);
 });
 
 
