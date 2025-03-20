@@ -2,13 +2,14 @@
 
 ### Proyecto Landing Page 
 
+https://alonsogza.github.io/tiaeva/ 
+
 Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 - HTML
 - CSS
 - Javascript
 - Materialize 1.0.0
-
 ---
 
 :zap: Icono SVG: https://freesvg.org/
@@ -23,15 +24,10 @@ Una sola página ( Index.html ) donde utilizo los siguientes elementos:
 
 :zap: uiGradients: https://uigradients.com
 
-<<<<<<< HEAD
-https://vecta.io/blog/best-way-to-embed-svg
-
 ---
 :coffee: Apoyo
 - https://color-hex.org/color/3b8435
 - https://cssgradient.io/
 - https://uigradients.com/#LearningandLeading
-=======
-
-https://vecta.io/blog/best-way-to-embed-svg
->>>>>>> e4aa8b8a48cabac82a0722657e5ba4f3f22e6359
+- https://vecta.io/blog/best-way-to-embed-svg
+---
